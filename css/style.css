@@ -13,9 +13,9 @@ body {
   background-color: #FBFBFB;
 }
 
-#header img {
-   width: 50%;
-   height: 50%;
+#header img src {
+   width: 25%;
+   height: 25%;
 }
 
 nav ul {
