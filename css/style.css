@@ -10,7 +10,7 @@ nav ul {
   padding: 0;
   float: left;
   overflow: hidden;
-  background: linear-gradient(110deg, #F27B35, #F272D0, #F25C78);
+  background: #FBFBFB;
   width: 100%;
   height: auto;
   position: sticky;
@@ -18,7 +18,7 @@ nav ul {
 
 nav ul li {
   float: left;
-  width: 25%;
+  width: 33.3%;
 }
 
 nav ul li a {
@@ -28,16 +28,17 @@ nav ul li a {
   padding: 20px 40px;
   color: white;
   font-size: 20px;
-  font-family: 'Young Serif', serif;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 700;
 }
 
 li a:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: #FBFBFB;
   display: block;
 }
 
 p a {
   text-decoration: none;
-  color: black;
+  color: #FBFBFB;
 }
