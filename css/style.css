@@ -13,7 +13,7 @@ nav ul {
   background: #FBFBFB;
   width: 100%;
   height: auto;
-  position: sticky;
+  position: fixed;
 }
 
 nav ul li {
