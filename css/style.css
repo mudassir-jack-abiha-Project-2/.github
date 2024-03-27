@@ -62,3 +62,8 @@ p a {
 footer {
     background-color: #FBFBFB;
 }
+
+footer p, a {
+  font-size: 10px;
+  color: #6E6E6E;
+}
