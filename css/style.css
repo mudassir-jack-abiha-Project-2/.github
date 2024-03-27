@@ -58,16 +58,16 @@ p a {
   color: #FBFBFB;
 }
 
-footer {
+#footer {
     background-color: #FBFBFB;
 }
 
-footer p, a {
+#footer p, a {
   font-size: 10px;
   color: #6E6E6E;
 }
 
-footer img {
+#footer img {
   width:80px;
   text-align: center;
 }
