@@ -16,7 +16,7 @@ h1 {
 }
 
 #header {
-  position: fixed;
+  position: relative;
   width: 100%;
   height: auto;
   text-align: center;
