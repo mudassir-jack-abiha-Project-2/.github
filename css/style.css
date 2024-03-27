@@ -3,7 +3,7 @@ body {
 }
 
 #container {
-  margin-top: 5%;
+  margin-top: 10%;
   margin-right: 10%;
   margin-left: 10%;
   margin-bottom: 5%;
@@ -26,7 +26,7 @@ h1 {
 }
 
 #header {
-  position: relative;
+  position: fixed;
   width: 100%;
   height: auto;
   text-align: center;
@@ -50,7 +50,7 @@ nav ul {
   color: #FBFBFB;
   width: 100%;
   height: auto;
-  position: relative;
+  position: sticky;
 }
 
 nav ul li {
