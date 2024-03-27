@@ -9,13 +9,15 @@ body {
 p { 
   font-size: 16px;
   color: black;
-  font-family: ;
-  font-weight: ;
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 {
-  font-family: ;
-  font-weight: ;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 25px;
 }
 
@@ -78,7 +80,7 @@ p a {
    background-color: #F0F0F0;
    position: absolute;
    display: block;
-   height: 300px;
+   height: 200px;
    width: 100%;
 }
 
