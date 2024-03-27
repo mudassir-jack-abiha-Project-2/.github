@@ -4,10 +4,17 @@ body {
 }
 
 #container {
-  margin-top: auto;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
   margin-bottom: 5%;
+  float: left;
+}
+
+#right-image {
+  width: 40%;
+  height: auto;
+  float: right;
 }
 
 p { 
