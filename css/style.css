@@ -30,7 +30,7 @@ h1 {
 }
 
 #header {
-  position: relative;
+  position: sticky;
   width: 100%;
   height: auto;
   text-align: center;
@@ -46,6 +46,7 @@ h1 {
 }
 
 nav ul {
+  position: sticky;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -86,7 +87,7 @@ p a {
 
 #footer {
    background-color: #F0F0F0;
-   position: static;
+   position: absolute;
    display: block;
    height: 170px;
    width: 100%;
