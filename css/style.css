@@ -3,7 +3,7 @@ body {
 }
 
 #container {
-  margin-top: 10%;
+  margin-top: auto;
   margin-right: 10%;
   margin-left: 10%;
   margin-bottom: 5%;
@@ -50,7 +50,6 @@ nav ul {
   color: #FBFBFB;
   width: 100%;
   height: auto;
-  position: sticky;
 }
 
 nav ul li {
