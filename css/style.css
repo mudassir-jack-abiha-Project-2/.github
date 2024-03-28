@@ -1,6 +1,3 @@
-body {
-  background-color: white;
-}
 
 #container {
   margin-top: 5%;
@@ -9,6 +6,7 @@ body {
   margin-bottom: 5%;
   width: 50%;
   float: left;
+  background-color: white;
 }
 
 #right-image {
