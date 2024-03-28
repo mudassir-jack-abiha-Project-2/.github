@@ -41,7 +41,7 @@ h1 {
 }
 
 #header {
-  position: fixed;
+  position: static;
   width: 100%;
   height: auto;
   text-align: center;
