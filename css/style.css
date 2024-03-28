@@ -85,7 +85,7 @@ p a {
 
 #footer {
    background-color: #F0F0F0;
-   height: 170px;
+   height: auto;
    width: 100%;
 }
 
