@@ -105,6 +105,8 @@ p a {
   color: #5C5C5C;
   margin: 3px;
   font-family: "Almarai", sans-serif;
+  width: 100%;
+  height: 170px;
 }
 
 .center {
