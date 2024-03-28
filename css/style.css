@@ -3,9 +3,9 @@
 }
 
 #front-image {
-  background-image: url("media/berkshire.jpg");
+  background-image: url('media/berkshire.jpg');
   width: 100%;
-  height: 35%;
+  height: 300px;
   object-fit: contain;
 }
 
