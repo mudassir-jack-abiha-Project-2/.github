@@ -34,13 +34,6 @@ body {
   background-color: white;
 }
 
-#front-image {
-  background-image: url('media/berkshire.jpg');
-  width: 100%;
-  height: 300px;
-  object-fit: contain;
-}
-
 #container {
   margin-top: 5%;
   margin-right: 5%;
