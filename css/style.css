@@ -1,3 +1,38 @@
+#header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: block;
+  background-color: #F0F0F0;
+}
+
+#top-image {
+    background-image:
+    linear-gradient(to bottom, rgba(110, 93, 83, 0.52), rgba(110, 93, 83, 0.73);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+nav {
+  position: sticky;
+}
+
+#right-image {
+  object-fit: cover;
+  float: right;
+  width: 50%;
+  height: 600px;
+  background-color: white;
+}
+
+#container {
+  background-color: #3d3a36;
+  height: 600px;
+  width: 50%;
+  float: left;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -7,71 +42,28 @@ nav ul {
   background-color: black;
   width: 100%;
   height: auto;
-  position: fixed;
 }
 
 nav ul li {
   float: left;
-  width: 33.33%;
+  width: 33.333%;
 }
 
 nav ul li a {
   text-decoration: none;
   display: block;
   text-align: center;
-  padding: 10px 40px;
+  padding: 10px 10px;
   color: white;
   font-size: 16px;
-  font-family: "Almarai", sans-serif;
+  font-family:  "Almarai", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 li a:hover {
-  background-color: white;
-  color: black;
-}
-
-body {
-  background-color: white;
-}
-
-#container {
-  margin-top: 5%;
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-bottom: 5%;
-  width: 50%;
-  float: left;
-}
-
-#right-image {
-  width: 40%;
-  height: auto;
-  float: right;
-}
-
-p { 
-  font-size: 16px;
-  color: black;
-  font-family: "Almarai", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-h1 {
-  font-family: "Almarai", sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 32px;
-}
-
-#header {
-  position: fixed;
-  width: 100%;
-  height: auto;
-  text-align: center;
-  display: block;
-  background-color: #F0F0F0;
+  background-color: #6e5d53;
+  color: white;
 }
 
 #logo {
@@ -80,24 +72,24 @@ h1 {
    margin-bottom: 15px;
 }
 
-p a {
-  text-decoration: none;
-  color: #FBFBFB;
+body {
+  font-family:  "Almarai", sans-serif;
+  font-size: 16px;
+  color: white;
 }
 
 #footer {
-   background-color: #F0F0F0;
-   height: auto;
-   width: 100%;
+  background-color: #F0F0F0;
+  height: 170px;
+  width: 100%;
+  clear: left;
+  font-size: 12px;
+  font-family: "Almarai", sans-serif;
 }
 
 #footer p, a {
-  font-size: 12px;
   color: #5C5C5C;
   margin: 3px;
-  font-family: "Almarai", sans-serif;
-  width: 100%;
-  height: 170px;
 }
 
 .center {
@@ -105,9 +97,7 @@ p a {
 }
 
 .img-footer {
-  width: 10%;
-  margin-left: 45%;
-  margin-right: 45%;
-  text-align: center;
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-  
