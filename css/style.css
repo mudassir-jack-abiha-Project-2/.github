@@ -57,7 +57,9 @@ middle-container3 {
 	text-align: center;
 }
 
-#middle-container img {
+#middle-container1 img,
+middle-container2 img,
+middle-container3 img {
 	border-radius: 50%;
 	width: 200px;
 	height: auto;
