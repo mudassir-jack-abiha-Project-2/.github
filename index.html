@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
     <script async src="js/script.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
   </head>
   <body>
     <header>
@@ -26,14 +28,42 @@
       <img src="media/berkshire.jpg" id="logo" alt="berkshire hathaway Pixelated">
     </div>
     <div id="container">
-      <h1>A Message From Warren E. Buffett, CEO of Berkshire Hathaway Inc.</h1>
-      <p>Dear Reader,</p>
-      <p>You probably know that I don't make stock recommendations. However, I have two thoughts regarding your personal expenditures that can save you real money. I'm suggesting that you call on the services of two subsidiaries of Berkshire: GEICO and Borsheim's.</p>
-      <p>I estimate that about 40% of all auto drivers in the country can save money by insuring with GEICO. The figure is not 100% because insurers differ in their underwriting judgments, with some favoring drivers who live in certain geographical areas and work in certain occupations more than GEICO does. I believe, however, that GEICO more frequently offers the low price than does any other national carrier selling insurance to all comers. You can quickly find out whether you can save money by going to www.geico.com or by calling 800-555-2756.</p>
-      <p>Fine jewelry, watches and giftware will almost certainly cost you less at Borsheim's. I've looked at the figures for all publicly-owned jewelry companies and the contrast with Borsheim's is startling. Our one-store operation, with its huge volume, enables us to operate with costs that are fully 15-20 percentage points below those incurred by our competitors. We pass the benefits of this low-cost structure along to our customers.</p>
-      <p>Every year Borsheim's sends out thousands of selections to customers who want a long-distance opportunity to inspect what it offers and decide which, if any, item they'd like to purchase. We do a huge amount of business in this low-key way, which allows the shopper to conveniently see the exceptional values that we offer. Call Sean Moore or Karen Goracke at Borsheim's (800-642-4438) and save substantial money on your next purchase of jewelry.</p>
-      <p>Sincerly,</p>
-      <p>Warren E. Buffett</p>
+      <div id="color">
+        <h1>Who is Berkshire Hathaway?</h1>
+        <p>Founded in 1839 as a textile manufacturer, it underwent a drastic restructuring into a conglomerate starting in 1965 under the leadership of chairman and CEO Warren Buffett and vice chairman Charlie Munger. The company's main business and source of capital is insurance, from which it invests the float (the retained premiums) in a broad portfolio of subsidiaries, equity positions and other securities.</p>
+      </div>
+      <div class="swiffy-slider">
+      <ul class="slider-container">
+        <li><img class="img" src="media/stock1.jpg" alt="image of stock exchange"></li>
+        <li><img class="img" src="media/stock2.jpg" alt="image of stock exchange"></li>
+        <li><img class="img" src="media/stock3.jpg" alt="image of stock exchange"></li>
+      </ul>
+      <button type="button" class="slider-nav"></button>
+      <button type="button" class="slider-nav slider-nav-next"></button>
+      <div class="slider-indicators">
+        <button class="active"></button>
+        <button></button>
+        <button></button>
+      </div>
+    </div>
+      <h1 id="spacer">Our Founders</h1>
+      <div id="column">
+        <div id="middle-container1">
+          <img src="media/warren.jpg" alt="warren buffett">
+          <h4>Warren Buffett</h4>
+          <p>Warren E. Buffett, age 91, has been a director and the controlling shareholder of the Corporation since 1965 and has been its Chairman and Chief Executive Officer since 1970. Mr. Buffett was a director of The Kraft Heinz Company until April 2018. </p>
+        </div>
+        <div id="middle-container2">
+          <img src="media/charlesm.jpg" alt="charles munger">
+          <h4>Charles Munger</h4>
+          <p>Charles T. Munger, age 98, has been a director and Vice Chairman of the Corporation’s Board of Directors since 1978. Between 1984 and 2011, he was Chairman of the Board of Directors and Chief Executive Officer of Wesco Financial Corporation, approximately 80% owned by the Corporation during that period.</p>
+        </div>
+        <div id="middle-container3">
+          <img src="media/arjit.jpg" alt="ajit jain">
+          <h4>Ajit Jain</h4>
+          <p>Ajit Jain, age 70, was elected a director of the Corporation and its Vice Chairman – Insurance Operations on January 9, 2018. Mr. Jain has been employed by the Berkshire Hathaway Insurance Group since 1986 and has been an Executive Vice President of National Indemnity Company, a wholly owned Berkshire subsidiary, since 1996.</p>
+        </div>
+      </div>
     </div>
     <footer id="footer">
       <div class="center">
