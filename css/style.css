@@ -51,14 +51,37 @@ nav {
 	padding-bottom: 5%;
 }
 
-#middle-container1, 
-#middle-container2,
-#middle-container3 {
-	text-align: center;
+#middle-container1 
+ {
+   text-align: center;
 }
 
-#middle-container1 img,
-#middle-container2 img,
+#middle-container2 
+ {
+   text-align: center;
+}
+
+#middle-container3 
+ {
+   text-align: center;
+}
+
+
+#middle-container1 img {
+	border-radius: 50%;
+	width: 200px;
+	height: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#middle-container2 img {
+	border-radius: 50%;
+	width: 200px;
+	height: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+}
 #middle-container3 img {
 	border-radius: 50%;
 	width: 200px;
