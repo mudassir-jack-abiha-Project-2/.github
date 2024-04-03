@@ -43,36 +43,24 @@
 #cycling-text:hover {
   -webkit-text-fill-color: initial; 
 }
-#search-form {
-  margin-top: 20px; 
-  text-align: left; 
-}
 
-#search-bar {
-  font-size: 16px;
-  padding: 10px;
-  width: 40%;
-  border: 2px solid #6e5d53; 
-  background-color: #f0f0f0; 
-  color: #333;
-  border-radius: 2px; 
-}
-
-#search-form button {
-  padding: 10px 20px;
-  margin-left: 10px; 
-  background-color: #6e5d53;
-  color: white;
+#cta-button {
+  background-color: #6e5d53; /* Change to match your site's color scheme */
   border: none;
-  border-radius: 5px; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-size: 16px;
-  cursor: pointer; 
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.5s ease; /* Add transition for smooth color change */
 }
 
-#search-form button:hover {
-  background-color: #5a4c43;
+#cta-button:hover {
+  background-color: #b69c8e; /* Change color on hover */
 }
-
 
 #home-container {
   position: relative;
