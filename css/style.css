@@ -64,7 +64,9 @@ nav {
 	padding-bottom: 5%;
 }
 
-#middle-container {
+#middle-container1, 
+middle-container2,
+middle-container3 {
 	text-align: center;
 }
 
