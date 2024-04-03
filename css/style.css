@@ -6,12 +6,87 @@
   background-color: #F0F0F0;
 }
 
-#top-image {
-    background-image:
-    linear-gradient(to bottom, rgba(110, 93, 83, 0.52), rgba(110, 93, 83, 0.73));
-    width: 100%;
-    height: 100px;
-    background-size: cover;
+#top-banner {
+  position: relative;
+  overflow: hidden; 
+  white-space: nowrap;
+  background-image: linear-gradient(to bottom, rgba(110, 93, 83, 0.52), rgba(110, 93, 83, 0.73));
+  width: 100%;
+  height: 50px;
+  line-height: 50px; 
+}
+
+.scrolling-text p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px; 
+  white-space: nowrap;
+  animation: scroll-text 40s linear infinite;
+}
+
+@keyframes scroll-text {
+  100% { transform: translateX(-100%); }
+}
+
+#cycling-text {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: left;
+  -webkit-text-fill-color: transparent; 
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:#ffffff; 
+  transition: all 0.5s ease; 
+}
+#cycling-text:hover {
+  -webkit-text-fill-color: initial; 
+}
+
+#cta-button {
+  background-color: #6e5d53; /* Change to match your site's color scheme */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.5s ease; /* Add transition for smooth color change */
+}
+
+#cta-button:hover {
+  background-color: #b69c8e; /* Change color on hover */
+}
+
+#home-container {
+  position: relative;
+  display: inline-block;
+  background-color: #3d3a36;
+  height: auto;
+  background-size: cover;
+  width: 100%;
+  text-align: left;
+  text-wrap: wrap;
+  height: 300px;
+}
+
+#home-textContainer{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+#Cartoon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20%;
+
 }
 
 #about-us-logo {
@@ -19,6 +94,7 @@
   width: 100%;
   height: 300px;
 }
+
 
 
 #about-us-container {
