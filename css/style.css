@@ -314,6 +314,96 @@ body {
   margin-bottom: 20px;
 }
 
+#header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: block;
+  background-color: #F0F0F0;
+}
+
+nav {
+  position: sticky;
+}
+
+.img {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+
+#spacer {
+	margin-top: 5%;
+}
+
+#container {
+  color: black;
+  text-align: center;
+  weight: 700;
+  font-size: 20px;
+}
+
+#container p {
+	line-height: 1.8;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 18px;
+	color: #5C5C5C;	
+}
+
+#column {
+	padding-top: 5%;
+	column-count: 3;
+	text-align: center;
+	column-gap: 0;
+	column-width: 33.33%;
+	padding-bottom: 5%;
+}
+
+#color {
+	background-color: #F0F0F0;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#middle-container1 
+ {
+   text-align: center;
+}
+
+#middle-container2 
+ {
+   text-align: center;
+}
+
+#middle-container3 
+ {
+   text-align: center;
+}
+
+
+#middle-container1 img {
+	border-radius: 50%;
+	width: 200px;
+	height: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#middle-container2 img {
+	border-radius: 50%;
+	width: 200px;
+	height: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#middle-container3 img {
+	border-radius: 50%;
+	width: 200px;
+	height: auto;
+	margin-left: 50px;
+	margin-right: 50px;
 #portfolio-container {
   max-width: 1200px;
   margin: 20px auto;
