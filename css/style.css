@@ -116,7 +116,6 @@ body {
 #container {
   color: black;
   text-align: center;
-  weight: 700;
   font-size: 20px;
 }
 
@@ -370,7 +369,6 @@ body {
 	position: relative;
 	display: inline-block;
 	background-color: #3d3a36;
-	height: auto;
 	background-size: cover;
 	width: 100%;
 	text-align: left;
@@ -391,4 +389,48 @@ body {
 	width: 14%;
 	height: auto;
 }
+#home-panels {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #000;
+	padding: 20px;
+  }
+  
+  #home-panels a {
+	background-color: #6e5d53;
+	flex-basis: calc(25% - 20px); 
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 15px 32px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  #home-panels a:hover {
+	cursor: pointer;
+	transform: translateY(-2px);
+	background-color: #807669;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  #panel-button:hover {
+	background-color: #807669;
+	cursor: pointer;
+  }
+  
+  #panel-button {
+	background-color: #6e5d53;
+	border: none;
+	color: #fff;
+	transition: background-color 0.3s ease;
+  }
+  
+  
+  
 
