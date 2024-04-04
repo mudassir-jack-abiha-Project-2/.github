@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
     <script async src="js/script.js"></script>
     <script async src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
   </head>
@@ -23,22 +24,18 @@
         </ul>
       </nav>
     </header>
-    <div id="top-banner">
-      <div class="scrolling-text">
-          <p>Warren Buffett's Berkshire Hathaway sees record gains in annual profits, signaling strong market confidence. | Buffett's latest investment move surprises Wall Street, as Berkshire Hathaway acquires a significant stake in a leading tech company. | At the annual shareholders' meeting, Warren Buffett shares his optimistic outlook for the global economy, emphasizing long-term value investing. | More news...</p>
-      </div>
-  </div>
-  
-    <div id="home-container">
-      <div id="home-textContainer">
-        <h1>Welcome to Warren's World of Investing</h1>
-        <div id="cycling-text">Innovate | Invest | Impress</div>
-        <a href="portfolio.html">
-          <button id="cta-button">Find out about our largest holdings!</button>
-        </a>
-        <img src="media/WarrenCartoon.png" id="Cartoon" alt="Sketch of Warren Buffet" />
-        <p>
-        </p>
+     <div class="swiffy-slider">
+      <ul class="slider-container">
+        <li><img class="img" src="media/stock1.jpg" alt="image of stock exchange"></li>
+        <li><img class="img" src="media/stock2.jpg" alt="image of stock exchange"></li>
+        <li><img class="img" src="media/stock3.jpg" alt="image of stock exchange"></li>
+      </ul>
+      <button type="button" class="slider-nav"></button>
+      <button type="button" class="slider-nav slider-nav-next"></button>
+      <div class="slider-indicators">
+        <button class="active"></button>
+        <button></button>
+        <button></button>
       </div>
     </div>
     <div id="home-panels"> 
