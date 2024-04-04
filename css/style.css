@@ -444,8 +444,4 @@ body {
 		margin-left: 10%;
 		margin-right: 10%;
 	}
-	
-	#home-panels a {
-      flex-basis: calc(20% - 15px);
-}
 }
