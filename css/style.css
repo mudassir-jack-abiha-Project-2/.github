@@ -129,7 +129,7 @@ body {
 
 #column {
 	padding-top: 5%;
-	column-count: 3;
+	column-count: 1;
 	text-align: center;
 	column-gap: 0;
 	padding-bottom: 5%;
@@ -416,4 +416,24 @@ body {
 
 #home-panels hr {
   border: 2px solid black;
+}
+
+@media (min-width: 550px) {
+	#column {
+	column-count: 3;
+       }
+	
+	
+}
+
+@media (min-width: 1000px) {
+	#color{
+	    margin-left: 30%;
+	    margin-right: 30%;
+	}
+	
+	#container{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
 }
