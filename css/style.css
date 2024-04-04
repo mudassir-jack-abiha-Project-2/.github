@@ -418,7 +418,7 @@ body {
   border: 2px solid black;
 }
 
-@media (min-width: 820px) {
+@media (min-width: 850px) {
 	#column {
 	column-count: 3;
        }
