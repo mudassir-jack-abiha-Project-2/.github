@@ -137,8 +137,8 @@ body {
 
 #color {
 	background-color: #F0F0F0;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 8%;
+	padding-bottom: 8%;
 }
 
 #middle-container1 
@@ -419,9 +419,7 @@ body {
 }
 
 @media (min-width: 600px) {
-	#container {
-	  padding: 8%;
-	}
+	
 	#column {
 	column-count: 3;
        }
