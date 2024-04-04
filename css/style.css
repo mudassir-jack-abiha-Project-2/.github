@@ -418,10 +418,15 @@ body {
   border: 2px solid black;
 }
 
-@media (min-width: 520px) {
+@media (min-width: 650px) {
 	#column {
 	column-count: 3;
        }
+	
+	#footer{
+	   min-height: 300px;
+	   height: 100%;
+	}
 }
 
 @media (min-width: 1700px) {
