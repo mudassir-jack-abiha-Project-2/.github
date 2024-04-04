@@ -393,7 +393,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	background-color: #000;
+	background-color: white;
 	padding: 20px;
   }
   
@@ -425,9 +425,11 @@ body {
   }
   
   #panel-button {
-	background-color: #6e5d53;
+	background-color: #F0F0F0;
 	border: none;
-	color: #fff;
+	width: 25%;
+	height: 500px;
+	color: ;
 	transition: background-color 0.3s ease;
   }
   
