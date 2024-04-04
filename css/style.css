@@ -4,6 +4,7 @@
 	text-align: center;
 	display: block;
 	background-color: #f0f0f0;
+	position: relative; 
 }
 
 
@@ -28,9 +29,6 @@
 	padding: 20px;
 }
 
-nav {
-	position: sticky;
-}
 
 nav ul {
 	list-style-type: none;
