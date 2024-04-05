@@ -1,11 +1,8 @@
 #header {
      width: 100%;
-     height: auto;
+     min-height: 200px;
      text-align: center;
-     display: block;
      background-color: #f0f0f0;
-     position: relative;
-     top: 0px;
 }
  nav ul {
      list-style-type: none;
