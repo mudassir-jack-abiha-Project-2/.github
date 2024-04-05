@@ -304,6 +304,9 @@
       #home-panels a {
          flex-basis: calc(50% - 15px);
     }
+     #home-panels1 a {
+         flex-basis: calc(50% - 15px);
+    }
 }
  @media (min-width: 900px) {
      #column {
@@ -314,6 +317,9 @@
          height: 100%;
     }
      #home-panels a {
+         flex-basis: calc(25% - 15px);
+    }
+      #home-panels1 a {
          flex-basis: calc(25% - 15px);
     }
 
