@@ -341,9 +341,7 @@
      #home-panels a {
          flex-basis: calc(25% - 15px);
     }
-      #spacer {
-       margin-top: 2%;
-    }
+
 }
  @media (min-width: 1700px) {
      #color p, h1{
@@ -355,7 +353,5 @@
          margin-left: 10%;
          margin-right: 10%;
     }
-       #spacer {
-       margin-top: 0.5%;
-    }
+     
 }
