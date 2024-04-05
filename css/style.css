@@ -340,7 +340,7 @@
          flex-basis: calc(50% - 15px);
     }
 }
- @media (min-width: 840px) {
+ @media (min-width: 900px) {
      #column {
          column-count: 3;
     }
