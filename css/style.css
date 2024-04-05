@@ -204,20 +204,20 @@
      height: auto;
 }
  .contact-form {
-     max-width: 800px;
      margin: 20px auto;
      padding: 20px;
      border: 1px solid #ccc;
      border-radius: 15px;
-     background-color: #3d3a36;
+     background-color: white;
      text-align: center;
 }
  .contact-form input[type=email], .contact-form input[type=text] {
      width: 400px;
      padding: 10px;
      margin-bottom: 10px;
-     border: 1px solid #6e6e6e;
-     border-radius: 5px;
+     border: none;
+     background-color: #F0F0F0;
+     border-radius: 0;
      box-sizing: border-box;
      font-family: Almarai, sans-serif;
 }
@@ -227,13 +227,13 @@
      background-color: #000;
      color: #fff;
      border: none;
-     border-radius: 5px;
+     border-radius: none;
      cursor: pointer;
      font-family: Almarai, sans-serif;
 }
  .contact-form input[type=submit]:hover {
-     background-color: #6e5d53;
-     color: #fff;
+     background-color: #F0F0F0;
+     color: black;
 }
  #top-banner {
      position: relative;
