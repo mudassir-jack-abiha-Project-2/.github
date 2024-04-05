@@ -30,8 +30,8 @@
      font-weight: 700;
 }
  li a:hover {
-     background-color: #6e5d53;
-     color: #fff;
+     background-color: white;
+     color: black;
 }
  #logo {
      width: 200px;
@@ -50,6 +50,11 @@
      clear: left;
      font-size: 12px;
      font-family: Almarai, sans-serif;
+}
+#h1container {
+     width: 60%;
+     margin-left: 20%;
+     margin-right: 20%;
 }
  #footer p, a {
      color: #5c5c5c;
