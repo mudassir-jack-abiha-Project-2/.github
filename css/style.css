@@ -253,6 +253,33 @@
      background-color: white;
      padding: 20px;
 }
+#home-panels1 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     background-color: white;
+     padding: 20px;
+}
+ #home-panels1 a {
+     background-color: #f0f0f0;
+     flex-basis: calc(100% - 15px);
+     box-sizing: border-box;
+     padding: 2% 4%;
+     min-height: 300px;
+     color: black;
+     font-size: 16px;
+     line-height: 1.4;
+     text-decoration: none;
+     transition: transform 0.3s ease, background-color 0.3s ease;
+}
+ #home-panels1 a:hover {
+     cursor: pointer;
+     transform: translateY(-2px);
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+ #home-panels1 hr {
+     border: 2px solid black;
+}
  #home-panels a {
      background-color: #f0f0f0;
      flex-basis: calc(100% - 15px);
