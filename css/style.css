@@ -134,40 +134,39 @@
  #portfolio-container {
      max-width: 1200px;
      margin: 20px auto;
-     padding: 0 20px 
+     padding: 0 20px; 
 }
  .portfolio-gallery {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      gap: 20px;
-     padding: 20px 
+     padding: 20px;
 }
  .portfolio-image {
      display: flex;
      justify-content: center;
-     align-items: center 
+     align-items: center; 
 }
  .portfolio-image img {
      max-width: 100%;
-     height: auto 
+     height: auto ;
 }
  .contact-form {
-     max-width: 800px;
+     width: 100%;
      margin: 20px auto;
      padding: 20px;
-     border: 1px solid #ccc;
-     border-radius: 15px;
-     background-color: #3d3a36;
-     text-align: center 
+     text-align: center; 
+}
+.contact-form h1 {
+     color: white;
 }
  .contact-form input[type=email], .contact-form input[type=text] {
      width: 400px;
      padding: 10px;
      margin-bottom: 10px;
-     border: 1px solid #6e6e6e;
-     border-radius: 5px;
+     border: none;
      box-sizing: border-box;
-     font-family: Almarai, sans-serif 
+     font-family: "Almarai", sans-serif;
 }
  .contact-form input[type=submit] {
      width: 400px;
@@ -175,75 +174,14 @@
      background-color: #000;
      color: #fff;
      border: none;
-     border-radius: 5px;
      cursor: pointer;
-     font-family: Almarai, sans-serif 
+     font-family: "Almarai", sans-serif ;
 }
  .contact-form input[type=submit]:hover {
      background-color: #6e5d53;
-     color: #fff 
-}
- #portfolio-container {
-     max-width: 1200px;
-     margin: 20px auto;
-     padding: 0 20px 
-}
- .portfolio-gallery {
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     gap: 20px;
-     padding: 20px 
-}
- .portfolio-image {
-     display: flex;
-     justify-content: center;
-     align-items: center 
-}
- .portfolio-image img {
-     max-width: 100%;
-     height: auto;
-}
- .contact-form {
-     margin: 20px auto;
-     padding: 20px;
-     border: 1px solid #ccc;
-     border-radius: 15px;
-     background-color: white;
-     text-align: center;
-}
- .contact-form input[type=email], .contact-form input[type=text] {
-     width: 400px;
-     padding: 10px;
-     margin-bottom: 10px;
-     border: none;
-     background-color: #F0F0F0;
-     border-radius: 0;
-     box-sizing: border-box;
-     font-family: Almarai, sans-serif;
-}
- .contact-form input[type=submit] {
-     width: 400px;
-     padding: 10px;
-     background-color: #000;
      color: #fff;
-     border: none;
-     border-radius: none;
-     cursor: pointer;
-     font-family: Almarai, sans-serif;
 }
- .contact-form input[type=submit]:hover {
-     background-color: #F0F0F0;
-     color: black;
-}
- #top-banner {
-     position: relative;
-     overflow: hidden;
-     white-space: nowrap;
-     background-image: linear-gradient(to bottom, rgba(110, 93, 83, .52), rgba(110, 93, 83, .73));
-     width: 100%;
-     height: 50px;
-     line-height: 50px;
-}
+
  .scrolling-text p {
      position: absolute;
      width: 100%;
