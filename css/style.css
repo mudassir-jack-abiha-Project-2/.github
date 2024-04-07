@@ -160,11 +160,23 @@
 .contact-form h1 {
      color: white;
 }
- .contact-form input[type=email], .contact-form input[type=text] {
+ #input-email input {
      width: 500px;
      padding: 10px;
      margin-bottom: 10px;
-     border: none;
+     border: 1px solid #f0f0f0;
+     box-sizing: border-box;
+     font-family: "Almarai", sans-serif;    
+}
+label {
+     text-transform: uppercase;
+     color: #5c5c5c;
+}
+ #input-name input {
+     width: 500px;
+     padding: 10px;
+     margin-bottom: 10px;
+     border: 1px solid #f0f0f0;
      box-sizing: border-box;
      font-family: "Almarai", sans-serif;
 }
