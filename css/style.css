@@ -164,7 +164,7 @@
      width: 500px;
      padding: 10px;
      margin-bottom: 10px;
-     border: 1px solid #f0f0f0;
+     border: 2px solid #f0f0f0;
      box-sizing: border-box;
      font-family: "Almarai", sans-serif;    
 }
@@ -176,7 +176,15 @@ label {
      width: 500px;
      padding: 10px;
      margin-bottom: 10px;
-     border: 1px solid #f0f0f0;
+     border: 2px solid #f0f0f0;
+     box-sizing: border-box;
+     font-family: "Almarai", sans-serif;
+}
+ #input-phone input {
+     width: 500px;
+     padding: 10px;
+     margin-bottom: 10px;
+     border: 2px solid #f0f0f0;
      box-sizing: border-box;
      font-family: "Almarai", sans-serif;
 }
