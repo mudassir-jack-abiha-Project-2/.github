@@ -153,7 +153,6 @@
 }
  .contact-form {
      width: 100%;
-     margin: 20px auto;
      padding: 20px;
      text-align: center; 
 }
@@ -165,25 +164,24 @@
      margin-left: 35%;
      margin-right: 35%;
      padding: 10px;
-     margin-bottom: 10px;
+     margin-bottom: 20px;
      background-color: #f0f0f0;
       box-sizing: border-box;
      font-family: "Almarai", sans-serif; 
-     display: block;
 }
 label {
      text-transform: uppercase;
      color: #5c5c5c;
      text-align: left;
-     margin-left: 35%;
+     display: block;
+
 }
  #input-name input {
      width: 30%;
      margin-left: 35%;
      margin-right: 35%;
      padding: 10px;
-     display: block;
-     margin-bottom: 10px;
+     margin-bottom: 20px;
      background-color: #f0f0f0;
      box-sizing: border-box;
      font-family: "Almarai", sans-serif;
@@ -192,15 +190,11 @@ label {
      width: 30%;
      margin-left: 35%;
      margin-right: 35%;
-     display: block;
      padding: 10px;
-     margin-bottom: 10px;
+     margin-bottom: 20px;
      background-color: #f0f0f0;
      box-sizing: border-box;
      font-family: "Almarai", sans-serif;
-}
-.contact-form input[type=email], .contact-form input[type=text]:focus {
-     outline: none;
 }
  .contact-form input[type=submit] {
      width: 30%;
@@ -209,11 +203,10 @@ label {
      color: #fff;
      font-weight: 700;
      border: none;
-     cursor: pointer;
      font-family: "Almarai", sans-serif;
      text-transform: uppercase;
-     top-margin: 3%;
-     bottom-margin: 5%;
+     top-margin: 20px;
+     bottom-margin: 60px;
 }
  .contact-form input[type=submit]:hover {
      background-color: white;
