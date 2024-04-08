@@ -175,9 +175,12 @@ label {
      text-transform: uppercase;
      color: #5c5c5c;
      display: block;
+     text-align: left;
 }
  #input-name input {
      width: 30%;
+     margin-left: 35%;
+     margin-right: 35%;
      padding: 10px;
      display: block;
      margin-bottom: 10px;
@@ -187,6 +190,8 @@ label {
 }
  #input-phone input {
      width: 30%;
+     margin-left: 35%;
+     margin-right: 35%;
      display: block;
      padding: 10px;
      margin-bottom: 10px;
@@ -198,7 +203,7 @@ label {
      outline: none;
 }
  .contact-form input[type=submit] {
-     width: 500px;
+     width: 30%;
      padding: 10px;
      background-color: #000;
      color: #fff;
@@ -207,6 +212,8 @@ label {
      cursor: pointer;
      font-family: "Almarai", sans-serif;
      text-transform: uppercase;
+     top-margin: 3%;
+     bottom-margin: 5%;
 }
  .contact-form input[type=submit]:hover {
      background-color: white;
