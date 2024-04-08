@@ -161,7 +161,9 @@
      color: white;
 }
  #input-email input {
-     width: 500px;
+     width: 30%;
+     margin-left: 35%;
+     margin-right: 35%;
      padding: 10px;
      margin-bottom: 10px;
      border: 2px solid #f0f0f0;
@@ -174,17 +176,8 @@ label {
      color: #5c5c5c;
      display: block;
 }
-#input-name {
-     text-align: center;
-}
-#input-phone {
-     text-align: center;
-}
-#input-email {
-     text-align: center;
-}
  #input-name input {
-     width: 500px;
+     width: 30%;
      padding: 10px;
      display: block;
      margin-bottom: 10px;
@@ -193,7 +186,7 @@ label {
      font-family: "Almarai", sans-serif;
 }
  #input-phone input {
-     width: 500px;
+     width: 30%;
      display: block;
      padding: 10px;
      margin-bottom: 10px;
