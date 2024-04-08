@@ -151,53 +151,50 @@
      max-width: 100%;
      height: auto ;
 }
- .contact-form {
-     width: 100%;
-     padding: 20px;
-     text-align: center; 
+.contact-form {
+    background-color: white;  
 }
-.contact-form h1 {
-     color: white;
+.contact-form-space {
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 20px;
+	padding-bottom: 40px;
 }
  #input-email input {
-     width: 30%;
-     margin-left: 35%;
-     margin-right: 35%;
+     width: 100%;
      padding: 10px;
      margin-bottom: 20px;
      background-color: #f0f0f0;
       box-sizing: border-box;
-     font-family: "Almarai", sans-serif; 
+     font-family: "Almarai", sans-serif;
+	 border: none;
 }
 label {
      text-transform: uppercase;
      color: #5c5c5c;
      text-align: left;
      display: block;
-
 }
  #input-name input {
-     width: 30%;
-     margin-left: 35%;
-     margin-right: 35%;
+     width: 100%;
      padding: 10px;
      margin-bottom: 20px;
      background-color: #f0f0f0;
      box-sizing: border-box;
      font-family: "Almarai", sans-serif;
+	 border: none;
 }
  #input-phone input {
-     width: 30%;
-     margin-left: 35%;
-     margin-right: 35%;
+     width: 100%;
      padding: 10px;
      margin-bottom: 20px;
      background-color: #f0f0f0;
      box-sizing: border-box;
      font-family: "Almarai", sans-serif;
+	 border: none;
 }
  .contact-form input[type=submit] {
-     width: 30%;
+     width: 100%;
      padding: 10px;
      background-color: #000;
      color: #fff;
@@ -213,7 +210,6 @@ label {
      border: 3px solid black;
      color: black;
 }
-
  .scrolling-text p {
      position: absolute;
      width: 100%;
