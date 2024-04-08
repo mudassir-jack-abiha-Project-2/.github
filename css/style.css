@@ -166,15 +166,18 @@
      margin-bottom: 10px;
      border: 2px solid #f0f0f0;
      box-sizing: border-box;
-     font-family: "Almarai", sans-serif;    
+     font-family: "Almarai", sans-serif; 
+    display: block;
 }
 label {
      text-transform: uppercase;
      color: #5c5c5c;
+     display: block;
 }
  #input-name input {
      width: 500px;
      padding: 10px;
+     display: block;
      margin-bottom: 10px;
      border: 2px solid #f0f0f0;
      box-sizing: border-box;
@@ -182,6 +185,7 @@ label {
 }
  #input-phone input {
      width: 500px;
+     display: block;
      padding: 10px;
      margin-bottom: 10px;
      border: 2px solid #f0f0f0;
