@@ -166,16 +166,16 @@
      margin-right: 35%;
      padding: 10px;
      margin-bottom: 10px;
-     border: 2px solid #f0f0f0;
-     box-sizing: border-box;
+     background-color: #f0f0f0;
+      box-sizing: border-box;
      font-family: "Almarai", sans-serif; 
-    display: block;
+     display: block;
 }
 label {
      text-transform: uppercase;
      color: #5c5c5c;
-     display: block;
      text-align: left;
+     margin-left: 35%;
 }
  #input-name input {
      width: 30%;
@@ -184,7 +184,7 @@ label {
      padding: 10px;
      display: block;
      margin-bottom: 10px;
-     border: 2px solid #f0f0f0;
+     background-color: #f0f0f0;
      box-sizing: border-box;
      font-family: "Almarai", sans-serif;
 }
@@ -195,7 +195,7 @@ label {
      display: block;
      padding: 10px;
      margin-bottom: 10px;
-     border: 2px solid #f0f0f0;
+     background-color: #f0f0f0;
      box-sizing: border-box;
      font-family: "Almarai", sans-serif;
 }
