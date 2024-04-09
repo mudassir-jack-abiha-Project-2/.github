@@ -303,6 +303,10 @@ label {
      #home-panels1 a {
          flex-basis: calc(50% - 15px);
     }
+      #sideMargin {
+         margin-top: 5%;
+         margin-bottom: 5%;
+    }
 }
  @media (min-width: 900px) {
      #column {
@@ -332,6 +336,8 @@ label {
      #sideMargin {
          margin-left: 10%;
          margin-right: 10%;
+         margin-top: 5%;
+         margin-bottom: 5%;
     }
     .contact-form {
        margin-left: 20%;
