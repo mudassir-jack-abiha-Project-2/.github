@@ -154,8 +154,12 @@
 .contact-form {
     padding: 20px;
     padding-bottom: 50px;
+    padding-top: 50px;
     margin-left: 5%;
     margin-right: 5%;
+}
+.contact-form p {
+    padding-bottom: 30px;
 }
  #input-email input {
      width: 100%;
@@ -169,6 +173,7 @@
 label {
      text-transform: uppercase;
      color: #5c5c5c;
+     margin-bottom: 10px;
      text-align: left;
      display: block;
 }
