@@ -206,8 +206,8 @@ label {
      border: none;
      font-family: "Almarai", sans-serif;
      text-transform: uppercase;
-     margin-top: 20px;
-     margin-bottom: 60px;
+     margin-top: 10px;
+     margin-bottom: 50px;
 }
  .contact-form input[type=submit]:hover {
      background-color: white;
