@@ -160,20 +160,22 @@
 }
 .contact-form p {
     padding-bottom: 30px;
+    font-size: 16px;
 }
  #input-email input {
      width: 100%;
      padding: 10px;
      margin-bottom: 20px;
      background-color: #f0f0f0;
-      box-sizing: border-box;
+     box-sizing: border-box;
      font-family: "Almarai", sans-serif;
-	 border: none;
+     border: none;
 }
 label {
      text-transform: uppercase;
      color: #5c5c5c;
      margin-bottom: 10px;
+     font-size: 16px;
      text-align: left;
      display: block;
 }
@@ -184,16 +186,17 @@ label {
      background-color: #f0f0f0;
      box-sizing: border-box;
      font-family: "Almarai", sans-serif;
-	 border: none;
+     border: none;
 }
  #input-phone input {
      width: 100%;
      padding: 10px;
-     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-bottom: 60px;
      background-color: #f0f0f0;
      box-sizing: border-box;
      font-family: "Almarai", sans-serif;
-	 border: none;
+     border: none;
 }
  .contact-form input[type=submit] {
      width: 100%;
@@ -316,7 +319,10 @@ label {
       #home-panels1 a {
          flex-basis: calc(25% - 15px);
     }
-
+      .contact-form {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 }
  @media (min-width: 1700px) {
      #color p, h1{
@@ -328,5 +334,8 @@ label {
          margin-left: 10%;
          margin-right: 10%;
     }
-     
+    .contact-form {
+       margin-left: 20%;
+       margin-right: 20%;
+    } 
 }
