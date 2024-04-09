@@ -152,13 +152,10 @@
      height: auto ;
 }
 .contact-form {
-    background-color: white;  
-}
-.contact-form-space {
-	margin-left: 5%;
-	margin-right: 5%;
-	padding: 20px;
-	padding-bottom: 40px;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
  #input-email input {
      width: 100%;
