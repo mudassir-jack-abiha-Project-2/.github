@@ -25,7 +25,7 @@
      padding: 10px 10px;
      color: #fff;
      font-size: 16px;
-     font-family: Almarai, sans-serif;
+     font-family: Almarai, sans-serif, arial;
      text-transform: uppercase;
      font-weight: 700;
 }
@@ -39,7 +39,7 @@
      margin-bottom: 15px;
 }
  body {
-     font-family: Almarai, sans-serif;
+     font-family: Almarai, sans-serif, arial;
      font-size: 16px;
      color: #fff;
 }
@@ -48,7 +48,7 @@
      height: 170px;
      width: 100%;
      clear: left;
-     font-family: Almarai, sans-serif;
+     font-family: Almarai, sans-serif, arial;
 }
 #h1container {
      width: 60%;
@@ -168,7 +168,7 @@
      margin-bottom: 20px;
      background-color: #f0f0f0;
      box-sizing: border-box;
-     font-family: "Almarai", sans-serif;
+     font-family: "Almarai", sans-serif, arial;
      border: none;
 }
 label {
@@ -185,7 +185,7 @@ label {
      margin-bottom: 20px;
      background-color: #f0f0f0;
      box-sizing: border-box;
-     font-family: "Almarai", sans-serif;
+     font-family: "Almarai", sans-serif, arial;
      border: none;
 }
  #input-phone input {
@@ -194,7 +194,7 @@ label {
      margin-bottom: 60px;
      background-color: #f0f0f0;
      box-sizing: border-box;
-     font-family: "Almarai", sans-serif;
+     font-family: "Almarai", sans-serif, arial;
      border: none;
 }
  .contact-form input[type=submit] {
@@ -204,7 +204,7 @@ label {
      color: #fff;
      font-weight: 700;
      border: none;
-     font-family: "Almarai", sans-serif;
+     font-family: "Almarai", sans-serif, arial;
      text-transform: uppercase;
      margin-top: 10px;
      margin-bottom: 50px;
